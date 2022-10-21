@@ -79,7 +79,6 @@
 // 技能掌握
 ;(function () {
   var myCharts = echarts.init(document.querySelector('.column .bar2 .chart'))
-  var myColor = ['#1089E7', '#F57474', '#56D0E3', '#F8B448', '#8B78F6']
   var option = {
     grid: {
       top: '10%',
@@ -140,6 +139,7 @@
             // params 传进来的是柱子对象
             // console.log(params);
             // dataIndex 是当前柱子的索引号
+            var myColor = ['#1089E7', '#F57474', '#56D0E3', '#F8B448', '#8B78F6']
             return myColor[params.dataIndex]
           }
         },
@@ -174,5 +174,105 @@
   myCharts.setOption(option)
   window.addEventListener('resize', function () {
     myCharts.resize()
+  })
+})()
+
+// 折线图
+;(function () {
+  var myCharts = echarts.init(document.querySelector('.line1  .chart'))
+  var yearData = [
+    {
+      year: '2020', // 年份
+      data: [
+        // 两个数组是因为有两条线
+        [24, 40, 101, 134, 90, 230, 210, 230, 120, 230, 210, 120],
+        [40, 64, 191, 324, 290, 330, 310, 213, 180, 200, 180, 79]
+      ]
+    },
+    {
+      year: '2021', // 年份
+      data: [
+        // 两个数组是因为有两条线
+        [123, 175, 112, 197, 121, 67, 98, 21, 43, 64, 76, 38],
+        [143, 131, 165, 123, 178, 21, 82, 64, 43, 60, 19, 34]
+      ]
+    }
+  ]
+  var option = {
+    tooltip: {
+      trigger: 'axis'
+    },
+    color: ['#00f2f1', '#ed3f35'],
+    legend: {
+      data: ['新增粉丝', '新增游客'],
+      textStyle: {
+        color: '#4c9bfd' // 图例文字颜色
+      },
+      right: 10
+    },
+    grid: {
+      top: '20%',
+      left: '3%',
+      right: '4%',
+      bottom: '3%',
+      show: true, // 显示边框
+      borderColor: '#012f4a', // 边框颜色
+      containLabel: true // 包含刻度文字在内
+    },
+
+    xAxis: {
+      type: 'category',
+      data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+      axisTick: {
+        show: false // 去除刻度线
+      },
+      axisLabel: {
+        color: '#4c9bfd' // 文本颜色
+      },
+      axisLine: {
+        show: false // 去除轴线
+      },
+      boundaryGap: false // 去除轴内间距
+    },
+    yAxis: {
+      type: 'value',
+      axisTick: {
+        show: false // 去除刻度
+      },
+      axisLabel: {
+        color: '#4c9bfd' // 文字颜色
+      },
+      splitLine: {
+        lineStyle: {
+          color: '#012f4a' // 分割线颜色
+        }
+      }
+    },
+    series: [
+      {
+        name: '新增粉丝',
+        data: yearData[0].data[0],
+        type: 'line',
+        smooth: true
+      },
+      {
+        name: '新增游客',
+        data: yearData[0].data[1],
+        type: 'line',
+        smooth: true
+      }
+    ]
+  }
+
+  myCharts.setOption(option)
+  window.addEventListener('resize', function () {
+    myCharts.resize()
+  })
+  $('.line1 h2').on('click', 'a', function () {
+    var obj = yearData[$(this).index()]
+    console.log(obj)
+    option.series[0].data = obj.data[0]
+    option.series[1].data = obj.data[1]
+    myCharts.setOption(option)
   })
 })()
