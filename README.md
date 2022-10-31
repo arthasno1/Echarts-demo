@@ -1,7 +1,7 @@
 # Echarts-Demo
 
 - 数据可视化-Echarts 大屏数据可视化展示
-- 展示地址：https://arthasno1.github.io/echarts-/
+- 展示地址： https://arthasno1.github.io/Echarts-demo/
 
 ## Echarts 介绍
 
@@ -28,6 +28,6 @@
 
 ## 项目展示
 
-- 展示地址：https://arthasno1.github.io/echarts-/
+- 展示地址： https://arthasno1.github.io/Echarts-demo/
 
 ![echarts.png](https://z4a.net/images/2020/06/29/echarts.png)
