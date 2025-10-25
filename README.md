@@ -1,48 +1,33 @@
-# Echarts 数据可视化大屏项目
+# Echarts-Demo
 
-## 项目简介
-基于Echarts的数据可视化大屏展示项目，展示就业行业、人员变化、年龄分布等多维度数据。
+- 数据可视化-Echarts 大屏数据可视化展示
+- 展示地址： https://arthasno1.github.io/Echarts-demo/
 
-## 功能特点
-- 实时时间显示
-- 就业行业柱状图展示
-- 人员变化折线图分析
-- 年龄分布饼图展示
-- 技能掌握情况统计
-- 地区分布可视化
-- 中国地图数据展示
+## Echarts 介绍
 
-## 技术栈
-- HTML5 + CSS3
-- Less预处理器
-- 原生JavaScript
-- jQuery
-- Echarts 5.0
-- Flex布局
-- Rem适配方案
+> ECharts，一个使用 JavaScript 实现的开源可视化库，可以流畅的运行在 PC 和移动设备上，兼容当前绝大部分浏览器（IE8/9/10/11，Chrome，Firefox，Safari 等），底层依赖矢量图形库 [ZRender](https://github.com/ecomfe/zrender)，提供直观，交互丰富，可高度个性化定制的数据可视化图表。
 
-## 项目结构
-```
-├── css/          # 样式文件
-├── js/           # JavaScript文件
-│   ├── index.js      # 主要业务逻辑
-│   ├── flexible.js   # 移动端适配
-│   ├── china.js      # 中国地图数据
-│   └── echarts.min.js # Echarts库
-├── images/       # 图片资源
-├── font/         # 字体文件
-└── index.html    # 主页面
-```
+简单来说：
 
-## 在线预览
-https://arthasno1.github.io/Echarts-demo/
+- 是一个 JS 插件
+- 性能好可流畅运行 PC 与移动设备
+- 兼容主流浏览器
+- 提供很多常用图表，且可**定制**。
+  - [折线图](https://echarts.apache.org/examples/zh/index.html#chart-type-line)、[柱状图](https://echarts.apache.org/examples/zh/index.html#chart-type-bar)、[散点图](https://echarts.apache.org/examples/zh/index.html#chart-type-scatter)、[饼图](https://echarts.apache.org/examples/zh/index.html#chart-type-pie)、[K 线图](https://echarts.apache.org/examples/zh/index.html#chart-type-candlestick)
 
-## 本地运行
-1. 克隆项目
-2. 使用Live Server或其他本地服务器运行
-3. 访问index.html即可查看效果
+官网地址：<https://echarts.apache.org/zh/index.html>
 
-## 注意事项
-- 建议使用现代浏览器访问
-- 推荐使用1920*1080分辨率查看
-- 需要联网加载Echarts资源
+## 使用技术
+
+- div + css 布局
+- flex 布局
+- Less
+- 原生 js + jquery 使用
+- rem 适配
+- **echarts 基础**
+
+## 项目展示
+
+- 展示地址： https://arthasno1.github.io/Echarts-demo/
+
+![echarts.png](https://z4a.net/images/2020/06/29/echarts.png)
