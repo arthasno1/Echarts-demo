@@ -30,15 +30,7 @@
         id: '710000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@°Ü¯Û',
-              '@@ƛĴÕƊÉɼģºðʀ\\ƎsÆNŌÔĚänÜƤɊĂǀĆĴĤǊŨxĚĮǂƺòƌâÔ®ĮXŦţƸZûÐƕƑGđ¨ĭMó·ęcëƝɉlÝƯֹÅŃ^Ó·śŃǋƏďíåɛGɉ¿IċããF¥ĘWǬÏĶñÄ',
-              '@@\\p|WoYG¿¥Ij@',
-              '@@¡@V^RqBbAnTXeQr©C',
-              '@@ÆEEkWqë I'
-            ]
-          ],
+          coordinates: [['@@°Ü¯Û', '@@ƛĴÕƊÉɼģºðʀ\\ƎsÆNŌÔĚänÜƤɊĂǀĆĴĤǊŨxĚĮǂƺòƌâÔ®ĮXŦţƸZûÐƕƑGđ¨ĭMó·ęcëƝɉlÝƯֹÅŃ^Ó·śŃǋƏďíåɛGɉ¿IċããF¥ĘWǬÏĶñÄ', '@@\\p|WoYG¿¥Ij@', '@@¡@V^RqBbAnTXeQr©C', '@@ÆEEkWqë I']],
           encodeOffsets: [
             [
               [122886, 24033],
@@ -728,17 +720,7 @@
         id: '310000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@ɧư¬EpƸÁx]',
-              '@@©²',
-              '@@MA',
-              '@@QpªKWT§¨',
-              '@@bŝÕÕEȣÚƥêImɇǦèÜĠÚÄÓŴ·ʌÇ',
-              '@@Sô¤r]ìƬįǜûȬɋŭ×^sYɍDŋŽąñCG²«ªč@h_p¯A{oloY¬j@Ĳ`gQÚpptǀ^MĲvtbe´Rh@oj¨',
-              '@@ÆLH{a}Eo¦'
-            ]
-          ],
+          coordinates: [['@@ɧư¬EpƸÁx]', '@@©²', '@@MA', '@@QpªKWT§¨', '@@bŝÕÕEȣÚƥêImɇǦèÜĠÚÄÓŴ·ʌÇ', '@@Sô¤r]ìƬįǜûȬɋŭ×^sYɍDŋŽąñCG²«ªč@h_p¯A{oloY¬j@Ĳ`gQÚpptǀ^MĲvtbe´Rh@oj¨', '@@ÆLH{a}Eo¦']],
           encodeOffsets: [
             [
               [124702, 32062],
@@ -768,15 +750,7 @@
         id: '810000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@AlFi',
-              '@@mp',
-              '@@EpHo',
-              '@@rMUwAS¬]',
-              '@@ea¢pl¸Eõ¹hj[]ÔCÎ@lj¡uBX´AI¹[yDU]W`çwZkmcMpÅv}IoJlcafŃK°ä¬XJmÐ đhI®æÔtSHnEÒrÄc'
-            ]
-          ],
+          coordinates: [['@@AlFi', '@@mp', '@@EpHo', '@@rMUwAS¬]', '@@ea¢pl¸Eõ¹hj[]ÔCÎ@lj¡uBX´AI¹[yDU]W`çwZkmcMpÅv}IoJlcafŃK°ä¬XJmÐ đhI®æÔtSHnEÒrÄc']],
           encodeOffsets: [
             [
               [117111, 23002],
@@ -808,15 +782,7 @@
         id: '710000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@°Ü¯Û',
-              '@@ƛĴÕƊÉɼģºðʀ\\ƎsÆNŌÔĚänÜƤɊĂǀĆĴĤǊŨxĚĮǂƺòƌâÔ®ĮXŦţƸZûÐƕƑGđ¨ĭMó·ęcëƝɉlÝƯֹÅŃ^Ó·śŃǋƏďíåɛGɉ¿IċããF¥ĘWǬÏĶñÄ',
-              '@@\\p|WoYG¿¥Ij@',
-              '@@¡@V^RqBbAnTXeQr©C',
-              '@@ÆEEkWqë I'
-            ]
-          ],
+          coordinates: [['@@°Ü¯Û', '@@ƛĴÕƊÉɼģºðʀ\\ƎsÆNŌÔĚänÜƤɊĂǀĆĴĤǊŨxĚĮǂƺòƌâÔ®ĮXŦţƸZûÐƕƑGđ¨ĭMó·ęcëƝɉlÝƯֹÅŃ^Ó·śŃǋƏďíåɛGɉ¿IċããF¥ĘWǬÏĶñÄ', '@@\\p|WoYG¿¥Ij@', '@@¡@V^RqBbAnTXeQr©C', '@@ÆEEkWqë I']],
           encodeOffsets: [
             [
               [122886, 24033],
@@ -1506,17 +1472,7 @@
         id: '310000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@ɧư¬EpƸÁx]',
-              '@@©²',
-              '@@MA',
-              '@@QpªKWT§¨',
-              '@@bŝÕÕEȣÚƥêImɇǦèÜĠÚÄÓŴ·ʌÇ',
-              '@@Sô¤r]ìƬįǜûȬɋŭ×^sYɍDŋŽąñCG²«ªč@h_p¯A{oloY¬j@Ĳ`gQÚpptǀ^MĲvtbe´Rh@oj¨',
-              '@@ÆLH{a}Eo¦'
-            ]
-          ],
+          coordinates: [['@@ɧư¬EpƸÁx]', '@@©²', '@@MA', '@@QpªKWT§¨', '@@bŝÕÕEȣÚƥêImɇǦèÜĠÚÄÓŴ·ʌÇ', '@@Sô¤r]ìƬįǜûȬɋŭ×^sYɍDŋŽąñCG²«ªč@h_p¯A{oloY¬j@Ĳ`gQÚpptǀ^MĲvtbe´Rh@oj¨', '@@ÆLH{a}Eo¦']],
           encodeOffsets: [
             [
               [124702, 32062],
@@ -1546,15 +1502,7 @@
         id: '810000',
         geometry: {
           type: 'MultiPolygon',
-          coordinates: [
-            [
-              '@@AlFi',
-              '@@mp',
-              '@@EpHo',
-              '@@rMUwAS¬]',
-              '@@ea¢pl¸Eõ¹hj[]ÔCÎ@lj¡uBX´AI¹[yDU]W`çwZkmcMpÅv}IoJlcafŃK°ä¬XJmÐ đhI®æÔtSHnEÒrÄc'
-            ]
-          ],
+          coordinates: [['@@AlFi', '@@mp', '@@EpHo', '@@rMUwAS¬]', '@@ea¢pl¸Eõ¹hj[]ÔCÎ@lj¡uBX´AI¹[yDU]W`çwZkmcMpÅv}IoJlcafŃK°ä¬XJmÐ đhI®æÔtSHnEÒrÄc']],
           encodeOffsets: [
             [
               [117111, 23002],

@@ -4,32 +4,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* em 和 i 斜体的文字不倾斜 */
 em,
 i {
   font-style: normal;
 }
+
 /* 去掉li 的小圆点 */
 li {
   list-style: none;
 }
+
 img {
   /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
   border: 0;
   /* 取消图片底侧有空白缝隙的问题 */
   vertical-align: middle;
 }
+
 button {
   /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
   cursor: pointer;
 }
+
 a {
   color: #666;
   text-decoration: none;
 }
+
 a:hover {
   color: #c81623;
 }
+
 button,
 input {
   /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
@@ -38,6 +45,7 @@ input {
   border: 0;
   outline: none;
 }
+
 body {
   /* CSS3 抗锯齿形 让文字显示的更加清晰 */
   -webkit-font-smoothing: antialiased;
@@ -45,10 +53,12 @@ body {
   font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
   color: #666;
 }
+
 .hide,
 .none {
   display: none;
 }
+
 /* 清除浮动 */
 .clearfix:after {
   visibility: hidden;
@@ -57,12 +67,15 @@ body {
   content: ".";
   height: 0;
 }
+
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
+
 body {
   background: url('../images/bg.jpg') no-repeat top center;
 }
+
 .panel {
   position: relative;
   height: 3.875rem;
@@ -71,6 +84,7 @@ body {
   padding: 0 0.1875rem 0.5rem;
   margin-bottom: 0.1875rem;
 }
+
 .panel h2 {
   height: 0.6rem;
   line-height: 0.6rem;
@@ -79,9 +93,11 @@ body {
   font-size: 0.25rem;
   font-weight: 400;
 }
+
 .panel .chart {
   height: 3rem;
 }
+
 .panel::before {
   position: absolute;
   top: 0;
@@ -92,6 +108,7 @@ body {
   border-top: 2px solid #02a6b5;
   border-left: 2px solid #02a6b5;
 }
+
 .panel::after {
   position: absolute;
   top: 0;
@@ -102,12 +119,14 @@ body {
   border-top: 2px solid #02a6b5;
   border-right: 2px solid #02a6b5;
 }
+
 .panel .panel-footer {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
 }
+
 .panel .panel-footer::before {
   position: absolute;
   bottom: 0;
@@ -118,6 +137,7 @@ body {
   border-bottom: 2px solid #02a6b5;
   border-left: 2px solid #02a6b5;
 }
+
 .panel .panel-footer::after {
   position: absolute;
   bottom: 0;
@@ -128,18 +148,21 @@ body {
   border-bottom: 2px solid #02a6b5;
   border-right: 2px solid #02a6b5;
 }
+
 header {
   position: relative;
   height: 1.25rem;
   background: url(../images/head_bg.png) no-repeat top center;
   background-size: 100% 100%;
 }
+
 header h1 {
   font-size: 0.475rem;
   color: #fff;
   text-align: center;
   line-height: 1rem;
 }
+
 header .showTime {
   position: absolute;
   top: 0;
@@ -148,31 +171,38 @@ header .showTime {
   font-size: 0.25rem;
   color: rgba(255, 255, 255, 0.7);
 }
+
 .mainbox {
   min-width: 1024px;
   max-width: 1920px;
   padding: 0.125rem 0.125rem 0;
   margin: 0 auto;
-  height: 300px;
+  height: 90vh;
   display: flex;
 }
+
 .mainbox .column {
   flex: 3;
 }
+
 .mainbox .column:nth-child(2) {
   flex: 5;
 }
+
 @font-face {
   font-family: electronicFont;
   src: url(../font/DS-DIGIT.TTF);
 }
+
 .no {
   font-family: electronicFont;
 }
+
 .no .no-hd {
   position: relative;
   border: 1px solid rgba(25, 186, 139, 0.17);
 }
+
 .no .no-hd::before {
   content: "";
   position: absolute;
@@ -183,6 +213,7 @@ header .showTime {
   top: 0;
   left: 0;
 }
+
 .no .no-hd::after {
   content: "";
   position: absolute;
@@ -193,9 +224,11 @@ header .showTime {
   right: 0;
   bottom: 0;
 }
+
 .no .no-hd ul {
   display: flex;
 }
+
 .no .no-hd ul li {
   position: relative;
   flex: 1;
@@ -208,6 +241,7 @@ header .showTime {
   font-family: electronicFont;
   font-weight: bold;
 }
+
 .no .no-hd ul li:first-child::after {
   content: "";
   position: absolute;
@@ -217,9 +251,11 @@ header .showTime {
   top: 25%;
   right: 0;
 }
+
 .no .no-bd ul {
   display: flex;
 }
+
 .no .no-bd ul li {
   flex: 1;
   height: 0.5rem;
@@ -229,10 +265,12 @@ header .showTime {
   color: rgba(255, 255, 255, 0.7);
   padding-top: 0.125rem;
 }
+
 .map {
   position: relative;
   height: 10.125rem;
 }
+
 .map .chart {
   position: absolute;
   top: 0;
@@ -241,6 +279,7 @@ header .showTime {
   height: 10.125rem;
   width: 100%;
 }
+
 .map .map1,
 .map .map2,
 .map .map3 {
@@ -254,6 +293,7 @@ header .showTime {
   background-size: 100% 100%;
   opacity: 0.3;
 }
+
 .map .map2 {
   width: 8.0375rem;
   height: 8.0375rem;
@@ -262,24 +302,29 @@ header .showTime {
   animation: rotate 15s linear infinite;
   z-index: 2;
 }
+
 .map .map3 {
   width: 7.075rem;
   height: 7.075rem;
   background-image: url(../images/jt.png);
   animation: rotate1 10s linear infinite;
 }
+
 @keyframes rotate {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
 @keyframes rotate1 {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   to {
     transform: translate(-50%, -50%) rotate(-360deg);
   }
